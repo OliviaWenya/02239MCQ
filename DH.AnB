@@ -1,0 +1,22 @@
+Protocol: DH
+
+Types: Agent A,B,s;
+       Number g,X,Y,Payload;
+       Function sk
+       
+Knowledge: A: A,B,g,sk(A,s);
+	   B: B,A,g,sk(B,s);
+ 	   s: A,B,g,sk(A,s),sk(B,s)
+
+Actions:
+B->A:   A,B,         exp(g,Y)
+A->s:   A,B,exp(g,X),exp(g,Y)
+s->B: {|A,B,exp(g,X),exp(g,Y)|}sk(A,s),
+      {|A,B,exp(g,X),exp(g,Y)|}sk(B,s)
+B->A: {|A,B,exp(g,X),exp(g,Y)|}sk(A,s),
+      {|A,B,exp(g,X),exp(g,Y)|}exp(exp(g,X),Y)
+A->B: {|Payload|}exp(exp(g,X),Y)
+
+Goals:
+Payload secret between A,B
+B weakly authenticates A on exp(exp(g,X),Y)
