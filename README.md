@@ -1,11 +1,20 @@
-# 02239
-02239 - Data Security
-Previous exam questions publicly shared due to an overwhelming amounts of requests, currently ranging from 2018 to 2023.
+# 02239 - Data Security Exam Questions
 
-Quick guide for OFMC added because there will be a question about it, and I will have forgotten how to OFMC... Even though I did Logic for Security... (Nice course btw :D)
+This repository contains previous exam questions for the "02239 - Data Security" course at DTU, ranging from 2018 to 2023. Due to the high demand for these resources, they have been compiled and made available here for convenience.
 
-I showed "the design guidelines" for the MCQ to someone and they were mindblown, so it's been included.
+## What’s Included
+- **Previous Exam Questions (2018–2023):** A collection of questions to help you prepare for the exam.
+- **Quick Guide for OFMC:** Since there is almost always an OFMC-related question, a quick guide has been added to jog your memory when needed (even if you took Logic for Security—great course, by the way!).
+- **MCQ Design Guidelines:** These guidelines, which I shared with someone who found them incredibly useful, are now included to help you understand the structure and focus of the multiple-choice questions.
+- **Diffie-Hellman (DH):** DH in Anna and Bob notation, as they are a recurring topic in the exams.
 
-And there's always a DH question so why not also have it? 
+## Notes
+- **Course Updates:** Keep in mind that significant changes to the course may occur, especially since Christian is no longer a professor at DTU.
 
-Keep in mind significant changes will most likely happen in the course going forward, given Christian is no longer a professor at DTU.
+## Repository Link
+Access the repository here: [02239MCQ on GitHub](https://github.com/OliviaWenya/02239MCQ)
+
+---
+Feel free to contribute or provide feedback to improve these resources. Happy studying!
+
+Also please remind me to add the 2024 MCQ after the exams ❣️
